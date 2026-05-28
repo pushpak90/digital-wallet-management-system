@@ -56,6 +56,38 @@ A production-style backend REST API project built using Java Spring Boot for man
 
 ---
 
+# Swagger API Documentation
+
+The project includes Swagger OpenAPI integration for API testing and documentation.
+
+Swagger URL:
+
+```text
+http://localhost:8080/swagger-ui/index.html
+```
+
+## Swagger UI Screenshot
+
+![Swagger UI](screenshots/swagger-ui.png)
+
+---
+
+# Database Tables
+
+## MySQL Tables Screenshot
+
+![Database Tables](screenshots/mysql-tables.png)
+
+---
+
+# Transfer API Response
+
+## Money Transfer API Success Response
+
+![Transfer API](screenshots/transfer-api.png)
+
+---
+
 # Project Architecture
 
 ```text
@@ -260,16 +292,6 @@ If any failure occurs during transfer:
 
 * Debit operation rolls back
 * Credit operation rolls back
-
----
-
-# Swagger Documentation
-
-Swagger UI:
-
-```text
-http://localhost:8080/swagger-ui/index.html
-```
 
 ---
 
